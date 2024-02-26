@@ -1,0 +1,15 @@
+#text-container {
+    width: 99%;
+    min-height: 100vh; /* Minimum height to ensure visibility */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    padding: 0 1%; /* Add padding of 10% to the left and right */
+    white-space: pre-line;
+}
+
+#small {
+    font-size: 2vw;
+}
