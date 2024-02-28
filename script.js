@@ -86,16 +86,16 @@ function setRandomStyles() {
     // Set the text content
     document.getElementById('text-container').innerHTML = randomText;
 
-    setTimeout(fadeToBlack, 15000);
+    setTimeout(fadeToBlack, 30000);
 }
 
 function fadeToBlack() {
     document.body.style.transition = "background-color 2s";
     document.body.style.backgroundColor = "#000000";
-    document.getElementById('text-container').style.transition = "color 2s";
+    document.getElementById('text-container').style.transition = "color 4s";
     document.getElementById('text-container').style.color = "#000000";
 
-    setTimeout(setRandomStyles, 2000);
+    setTimeout(setRandomStyles, 4000);
 }
 
 // Event listener to call the function when the webpage loads
