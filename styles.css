@@ -9,6 +9,7 @@
     line-height: clamp(4.688rem, 3.349vw + 3.821rem, 6.5rem);
     padding: 0 1%; /* Add padding of 10% to the left and right */
     white-space: pre-line;
+    cursor: none;
 }
 
 #small {
