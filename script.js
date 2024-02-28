@@ -27,7 +27,7 @@ var texts = [
     "\"and if I asked you to name all the things that you love,\nhow long would it take for you to name yourself?\"",
     "<i>it gets better</i><i>it gets better</i><i>it gets better</i><i>it gets better</i>",
     "<span id=\"small\">What is something that is always true?</span>\n\n<i>Love is at the center of it all. Love is the point.</i>",
-    "\"If hatred knocks at your door,\nGreet it with a smile,\nBut tell it it has come too late,\nFor love is already having tea inside.\n\n<span id=\"small\"><b>Nasim Asgari</b></span>",
+    "If hatred knocks at your door,\nGreet it with a smile,\nBut tell it it has come too late,\nFor love is already having tea inside.\n\n<span id=\"small\"><b>Nasim Asgari</b></span>",
     "Not everyone will understand.\nThat's okay.",
     "Don't lower your expectations so people can fit in your life. I don't care if you're lonely on that mountain. It's your mountain. Honor that.",
     "I think you should tell people how important they are to you not because they could leave at any moment,\nBut because they're here now,\nAnd it's worth saying.",
