@@ -60,7 +60,31 @@ var texts = [
     "It wasn't easy, you know\nClimbing all the way up here\nBut boy do I see far!",
     "Do it or don't!\nThe time will pass anyway.",
     "You'll bear it. You'll last out. You will.\n\n<span id=\"small\"><b>Olga Bergholz</b>, from <i>Lies, Rust, Sadness; \"Conversation with a Neighbor\"</i></span>",
-    "<span id=\"small\">I know.</span>\nIt's for the better."
+    "<span id=\"small\">I know.</span>\nIt's for the better.",
+    "And it's inside myself that I must create someone who will understand.\n\n<span id=\"small\"><b>Clarice Lispector</b></span>",
+    "We grow. It hurts at first.\n\n<span id=\"small\"><b>Sylvia Plath</b>, from The Collected Poems; \"<i>Witch Burning,</i>\" c. October 1961</span>",
+    "I know better now how to handle loss, accept doubt, live with the unknown. I learned to wait for spring.\n<b>Spring came.</b>",
+    "My suffering did not make me anything.\n\nI suffered\nand then I made myself gentle and kind, I made myself strong, and I made myself good.",
+    "You can easily return to the past, but no one is there anymore.",
+    "Should I be grateful or should I curse the fact that despite all misfortune I can still feel love.\n\n<span id=\"small\"><b>Franz Kafka</b>, from <i>Diaries, 1910-1923</i></span>",
+    "I guess I'm trying to say, grab anything that goes by. It may not come around again.\n\n<span id=\"small\"><b>John Steinbeck</b></span>",
+    "I can't afford to hate anyone, I don't have that kind of time.\n\n<span id=\"small\">Akira Kurosawa</span>",
+    "this time\n\ni should be true to myself",
+    "I still fondly cherish the beautiful memories we share, those are part of me and my life, I don't regret them.",
+    "I want to look back and say that I was alive. That I didn't turn my back. That I tried. That I was happy.\n\n<span id=\"small\"><b>Evelyn Waugh</b>, from <i>Brideshead Revisited</i></span>",
+    "...and that's a good lesson to learn in life.\n\nLet go.",
+    "Let's pay attention to where we are.\nThere's enough beauty in being here and not somewhere else.",
+    "Some things are more precious because they don't last long.\n\n<span id\"small\"><b>Oscar Wilde</b>, from <i>The Picture of Dorian Gray</i></span>",
+    "I love when I realize that I'm handling a situation better than my old self would have.",
+    "Anyone who takes the time to be kind is beautiful.\n\n<span id=\"small\"><b>Richelle E. Goodrich</b></span>",
+    "There is no minimum amount of suffering before you are allowed to alleviate it.",
+    "I hope you find everything you've been searching for.",
+    "When trauma is transformed into art, there will always be a paradox at play: The art's existence is beautiful. But it shouldn't have to exist at all.\n\n<span id=\"small\"><b>Megan Garber</b>, The Atlantic</span>",
+    "-but we cannot sit and stare\nat our wounds forever.",
+    "The limit does not exist.",
+    "Remember the time you thought you never could survive?\n\n<b>You did, and you can do it again.</b>",
+    "It is safe for me to change my plans and rest instead.",
+    "Growth will also feel like loss.\nRemember that."
 ];
 
 // Function to choose a random item from an array
