@@ -94,6 +94,7 @@ function fadeToBlack() {
     document.body.style.backgroundColor = "#000000";
     document.getElementById('text-container').style.transition = "color 4s";
     document.getElementById('text-container').style.color = "#000000";
+    document.getElementById('text-container').style.transition = "color 2s";
 
     setTimeout(setRandomStyles, 4000);
 }
