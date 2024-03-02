@@ -112,16 +112,16 @@ function setRandomStyles() {
 
     // Set the text content
     document.getElementById('text-container').innerHTML = randomText;
-    timeouts.push(setTimeout(fadeToBlack, 30000));
+    timeouts.push(setTimeout(fadeToBlack(4000), 30000));
 }
 
-function fadeToBlack() {
-    document.body.style.transition = "background-color 2s";
+function fadeToBlack(time) {
+    document.body.style.transition = "background-color " + (time / 2 / 1000) + "s";
     document.body.style.backgroundColor = "#000000";
-    document.getElementById('text-container').style.transition = "color 4s";
+    document.getElementById('text-container').style.transition = "color " + (time / 1000) + "s"
     document.getElementById('text-container').style.color = "#000000";
 
-    timeouts.push(setTimeout(setRandomStyles, 4000));
+    timeouts.push(setTimeout(setRandomStyles, time));
 }
 
 document.addEventListener('click', function() {
@@ -131,7 +131,7 @@ document.addEventListener('click', function() {
     //quick reset of the timer array you just cleared
     timeouts = [];
 
-    fadeToBlack();
+    fadeToBlack(1000);
 });
 
 // Event listener to call the function when the webpage loads
