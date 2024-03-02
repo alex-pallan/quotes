@@ -119,7 +119,7 @@ function setRandomStyles() {
 function fadeToBlack(time) {
     document.body.style.transition = "background-color " + (time / 2 / 1000) + "s";
     document.body.style.backgroundColor = "#000000";
-    document.getElementById('text-container').style.transition = "color " + (time / 1000) + "s"
+    document.getElementById('text-container').style.transition = "color " + (time / 1000) + "s";
     document.getElementById('text-container').style.color = "#000000";
 
     timeouts.push(setTimeout(setRandomStyles, time));
