@@ -97,7 +97,6 @@ function chooseRandomItem(array) {
 
 // Function to set the background color and text of the webpage
 function setRandomStyles() {
-    document.getElementById('text-container').style.transition = "color 2s";
     // Choose a random color data
     var randomColorData = chooseRandomItem(colorData);
 
