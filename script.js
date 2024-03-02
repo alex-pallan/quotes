@@ -112,7 +112,9 @@ function setRandomStyles() {
 
     // Set the text content
     document.getElementById('text-container').innerHTML = randomText;
-    timeouts.push(setTimeout(fadeToBlack(4000), 30000));
+    timeouts.push(setTimeout(function() {
+        fadeToBlack(4000);
+    }, 30000));    
 }
 
 function fadeToBlack(time) {
