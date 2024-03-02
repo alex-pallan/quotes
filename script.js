@@ -122,6 +122,8 @@ function fadeToBlack(time) {
     document.getElementById('text-container').style.transition = "color " + (time / 1000) + "s";
     document.getElementById('text-container').style.color = "#000000";
 
+    document.getElementById('text-container').style.transition = "color " + (time / 2 / 1000) + "s";
+
     timeouts.push(setTimeout(setRandomStyles, time));
 }
 
