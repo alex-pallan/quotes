@@ -1,3 +1,5 @@
+var timeouts = [];
+
 // Define an array of predetermined colors and corresponding text options
 var colorData = [
     { background: "#556b2fff", text: "#fffdd0" },
@@ -110,8 +112,7 @@ function setRandomStyles() {
 
     // Set the text content
     document.getElementById('text-container').innerHTML = randomText;
-
-    setTimeout(fadeToBlack, 30000);
+    timeouts.push(setTimeout(fadeToBlack, 30000));
 }
 
 function fadeToBlack() {
@@ -120,8 +121,18 @@ function fadeToBlack() {
     document.getElementById('text-container').style.transition = "color 4s";
     document.getElementById('text-container').style.color = "#000000";
 
-    setTimeout(setRandomStyles, 4000);
+    timeouts.push(setTimeout(setRandomStyles, 4000));
 }
+
+document.addEventListener('click', function() {
+    for (var i = 0; i < timeouts.length; i++) {
+        clearTimeout(timeouts[i]);
+    }
+    //quick reset of the timer array you just cleared
+    timeouts = [];
+
+    fadeToBlack();
+});
 
 // Event listener to call the function when the webpage loads
 window.addEventListener('load', setRandomStyles);
