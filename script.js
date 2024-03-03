@@ -117,14 +117,23 @@ function setRandomStyles() {
 }
 
 function fadeToBlack(time) {
-    document.body.style.transition = "background-color " + (time / 2 / 1000) + "s";
+    setBodyTransitionTime(time / 2);
     document.body.style.backgroundColor = "#000000";
-    document.getElementById('text-container').style.transition = "color " + (time / 1000) + "s";
+    setTextTransitionTime(time);
     document.getElementById('text-container').style.color = "#000000";
 
-    document.getElementById('text-container').style.transition = "color " + (time / 2 / 1000) + "s";
-
+    timeouts.push(setTimeout(function() {
+        setTextTransitionTime(time / 2);
+    }, time));  
     timeouts.push(setTimeout(setRandomStyles, time));
+}
+
+function setBodyTransitionTime(millis) {
+    document.body.style.transition = "background-color " + (millis / 1000) + "s";
+}
+
+function setTextTransitionTime(millis) {
+    document.getElementById('text-container').style.transition = "color " + (time / 1000) + "s";
 }
 
 document.addEventListener('click', function() {
