@@ -133,7 +133,7 @@ function setBodyTransitionTime(millis) {
 }
 
 function setTextTransitionTime(millis) {
-    document.getElementById('text-container').style.transition = "color " + (time / 1000) + "s";
+    document.getElementById('text-container').style.transition = "color " + (millis / 1000) + "s";
 }
 
 document.addEventListener('click', function() {
