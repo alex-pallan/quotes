@@ -147,7 +147,7 @@ document.addEventListener('click', function() {
 });
 
 // Event listener to call the function when the webpage loads
-window.addEventListener('load', setRandomStyles);
+window.addEventListener('load', startPage);
 
 function startPage() {
     setRandomStyles();
