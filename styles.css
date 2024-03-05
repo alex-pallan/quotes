@@ -11,6 +11,12 @@
     white-space: pre-line;
 }
 
+#donation-button {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+}
+
 #small {
     font-size: clamp(1.5625rem, 1.732vw + 1.1145rem, 2.5rem);
     line-height: clamp(2.344rem, 1.6745vw + 1.9105rem, 3.25rem);
