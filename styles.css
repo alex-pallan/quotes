@@ -25,15 +25,17 @@
     gap: 8px;
     width: fit-content;
     line-height: 24px;
-    z-index: 1;
-    position: absolute;
-    text-align: center;
 }
 
 #donation-button-div {
     z-index: 1;
     position: absolute;
+    width: 99%;
+    min-height: 100vh; /* Minimum height to ensure visibility */
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #small {
