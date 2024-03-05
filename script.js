@@ -161,5 +161,9 @@ function donationButtonFadeIn() {
 
 function donationButtonFadeOut() {
     document.getElementById('donation-button-div').style.opacity = 0;
-    document.getElementById("donation-button").disabled = true;
+    setTimeout(removeDonationDiv, 1000);
+}
+
+function removeDonationDiv() {
+    document.getElementById('donation-button-div').remove();
 }
