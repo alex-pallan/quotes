@@ -27,6 +27,11 @@
     line-height: 24px;
 }
 
+#donation-button.hover {
+    background: white;
+    color: black;
+}
+
 #donation-button-div {
     position: fixed;
     left: 0px;
@@ -35,7 +40,7 @@
     height: 100%;
     text-align: center;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
 }
 
