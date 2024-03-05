@@ -15,7 +15,7 @@
     background: transparent;
     border-color: white;
     border: solid;
-    border-radius: 5px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     display: flex;
@@ -25,9 +25,11 @@
     gap: 8px;
     width: fit-content;
     line-height: 24px;
+    transition-duration: 0.4s;
+    margin-bottom: 10px;
 }
 
-#donation-button.hover {
+#donation-button:hover {
     background: white;
     color: black;
 }
