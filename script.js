@@ -154,11 +154,11 @@ function startPage() {
     setTimeout(donationButtonFadeIn, 5000);
 }
 
-function donationButtonFadeIn {
+function donationButtonFadeIn() {
     document.getElementById('donation-button-div').style.opacity = 1;
     setTimeout(donationButtonFadeOut, 5000);
 }
 
-function donationButtonFadeOut {
+function donationButtonFadeOut() {
     document.getElementById('donation-button-div').style.opacity = 0;
 }
