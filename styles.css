@@ -28,7 +28,7 @@
 }
 
 #donation-button:hover {
-    box-shadow: inset 0px 0px 10px white;
+    box-shadow: inset 0px 0px 10px white, 0px 0px 10px white;
     color: white;
 }
 
