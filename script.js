@@ -155,8 +155,8 @@ function startPage() {
 }
 
 function donationButtonFadeIn() {
-    document.getElementById('donation-button-div').style.opacity = 1;
-    setTimeout(donationButtonFadeOut, 5000);
+    document.getElementById('donation-button-div').style.opacity = 0.5;
+    setTimeout(donationButtonFadeOut, 15000);
 }
 
 function donationButtonFadeOut() {
