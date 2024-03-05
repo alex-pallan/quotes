@@ -35,6 +35,8 @@
 }
 
 #donation-button-div {
+    opacity: 0;
+    transition-duration: 1s;
     position: fixed;
     left: 0px;
     top: 0px;

@@ -148,3 +148,17 @@ document.addEventListener('click', function() {
 
 // Event listener to call the function when the webpage loads
 window.addEventListener('load', setRandomStyles);
+
+function startPage() {
+    setRandomStyles();
+    setTimeout(donationButtonFadeIn, 5000);
+}
+
+function donationButtonFadeIn {
+    document.getElementById('donation-button-div').style.opacity = 1;
+    setTimeout(donationButtonFadeOut, 5000);
+}
+
+function donationButtonFadeOut {
+    document.getElementById('donation-button-div').style.opacity = 0;
+}
