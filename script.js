@@ -158,7 +158,7 @@ window.addEventListener('load', startPage);
 
 function startPage() {
     setRandomStyles();
-    setTimeout(donationButtonFadeIn, 5000);
+    setTimeout(donationButtonFadeIn, 60000);
 }
 
 function donationButtonFadeIn() {
