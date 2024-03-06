@@ -86,7 +86,14 @@ var texts = [
     "The limit does not exist.",
     "Remember the time you thought you never could survive?\n\n<b>You did, and you can do it again.</b>",
     "It is safe for me to change my plans and rest instead.",
-    "Growth will also feel like loss.\nRemember that."
+    "Growth will also feel like loss.\nRemember that.",
+    "The path to getting better is not linear. Two steps forward and one step back is still progress.",
+    "One day you will wake up\nand not feel these heavy feelings in your heart.\nThey will dissolve in the rain.",
+    "I'm proud of you for always trying",
+    "Everything has changed and yet, I am more me than I've ever been.",
+    "The most beautiful part of your body is where it's headed.\n\n<span id=\"small\"><b>Ocean Vuong</b>, from <i>Someday I'll love Ocean Vuong</i></span>",
+    "Loneliness is still time spent with the world.\n\n<span id=\"small\"><b>Ocean Vuong</b>, from <i>Someday I'll love Ocean Vuong</i></span>",
+    "Life is so subtle sometimes that you barely notice yourself walking through the doors you once prayed would open."
 ];
 
 // Function to choose a random item from an array
