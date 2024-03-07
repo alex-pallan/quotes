@@ -159,6 +159,7 @@ window.addEventListener('load', startPage);
 function startPage() {
     setRandomStyles();
     setTimeout(donationButtonFadeIn, 60000);
+    resizeBrowserTo75PercentZoom();
 }
 
 function donationButtonFadeIn() {
@@ -173,4 +174,16 @@ function donationButtonFadeOut() {
 
 function removeDonationDiv() {
     document.getElementById('donation-button-div').remove();
+}
+
+// Check if the device is a smartphone
+function isSmartphone() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Resize the browser window to 75% zoom
+function resizeBrowserTo75PercentZoom() {
+    if (isSmartphone()) {
+        document.body.style.zoom = "75%";
+    }
 }
