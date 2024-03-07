@@ -8,7 +8,13 @@ var colorData = [
     { background: "#362819ff", text: "#fffff0" },
     { background: "#7b3f00ff", text: "#fff5e1" },
     { background: "#945b14", text: "#decca6" },
-    { background: "#000435", text: "#faf0e6" }
+    { background: "#000435", text: "#e5e5ff" },
+    { background: "#003b49", text: "#ffffff" },
+    { background: "#000435", text: "#e5e5ff" },
+    { background: "#d6d2c4", text: "#003b49" },
+    { background: "#003b49", text: "#d6d2c4" },
+    { background: "#4a148c", text: "#e8d4ff" },
+    { background: "#5b0f00ff", text: "#ffdfdf" },
 ];
 
 // Define an array of predetermined texts
