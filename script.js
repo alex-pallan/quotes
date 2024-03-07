@@ -124,7 +124,14 @@ var texts = [
     "Everyone is worth loving.\nThat includes you.",
     "Even if you mess up super badly, the doggies on the street will still tug on their owners when you walk by because they wanna say hello so badly.",
     "The world is cruel;\ntherefore I won't be.",
-    "Forgive yourself for not knowing what you didn't know before you learned it.\n\n<span id=\"small\"><b>Maya Angelou</b></span>"
+    "Forgive yourself for not knowing what you didn't know before you learned it.\n\n<span id=\"small\"><b>Maya Angelou</b></span>",
+    "anyway. onto better things",
+    "\"Do I deserve this?\"\n\"Am I worthy of love?\"\nSo irrelevant. Do you want it?",
+    "Thanks for everything.\nI had a wonderful time.",
+    "Since my house burned down I now own a better view of the rising moon.",
+    "If we're not supposed to dance, why all this music?",
+    "You're not here to entertain anybody.",
+    "It's okay if you're not who you thought you would be."
 ];
 
 // Function to choose a random item from an array
