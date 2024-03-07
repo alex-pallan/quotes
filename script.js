@@ -76,7 +76,7 @@ var texts = [
     "I want to look back and say that I was alive. That I didn't turn my back. That I tried. That I was happy.\n\n<span id=\"small\"><b>Evelyn Waugh</b>, from <i>Brideshead Revisited</i></span>",
     "...and that's a good lesson to learn in life.\n\nLet go.",
     "Let's pay attention to where we are.\nThere's enough beauty in being here and not somewhere else.",
-    "Some things are more precious because they don't last long.\n\n<span id\"small\"><b>Oscar Wilde</b>, from <i>The Picture of Dorian Gray</i></span>",
+    "Some things are more precious because they don't last long.\n\n<span id=\"small\"><b>Oscar Wilde</b>, from <i>The Picture of Dorian Gray</i></span>",
     "I love when I realize that I'm handling a situation better than my old self would have.",
     "Anyone who takes the time to be kind is beautiful.\n\n<span id=\"small\"><b>Richelle E. Goodrich</b></span>",
     "There is no minimum amount of suffering before you are allowed to alleviate it.",
