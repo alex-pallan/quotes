@@ -154,7 +154,8 @@ var texts = [
     "it is a serious thing\njust to be alive\non this fresh morning\nin this broken world.",
     "and the universe said I love you because you are love.",
     "I've decided to live the life I want to live,\n<span id=\"small\">countless small steps will get me there.</span>",
-    "<i>i'm wishing you a safe return back to yourself</i>"
+    "<i>i'm wishing you a safe return back to yourself</i>",
+    "Thank you universe for always looking out for me and making sure things work out in my favor."
 ];
 
 // Function to choose a random item from an array
