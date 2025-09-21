@@ -221,22 +221,7 @@ window.addEventListener('load', startPage);
 
 function startPage() {
     setRandomStyles();
-    setTimeout(donationButtonFadeIn, 60000);
     resizeBrowserTo75PercentZoom();
-}
-
-function donationButtonFadeIn() {
-    document.getElementById('donation-button-div').style.opacity = 0.5;
-    setTimeout(donationButtonFadeOut, 15000);
-}
-
-function donationButtonFadeOut() {
-    document.getElementById('donation-button-div').style.opacity = 0;
-    setTimeout(removeDonationDiv, 1000);
-}
-
-function removeDonationDiv() {
-    document.getElementById('donation-button-div').remove();
 }
 
 // Check if the device is a smartphone
